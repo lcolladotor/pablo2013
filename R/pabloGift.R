@@ -12,7 +12,7 @@
 #' @examples
 #' \dontrun{
 #' ## Open the Shiny application
-#' fitbitShine()
+#' pabloGift()
 #' ## Remember to cancel the command to get back to the R console once you are done analyzing your own data.
 #' }
 #' @export

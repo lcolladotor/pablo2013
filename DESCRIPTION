@@ -1,19 +1,14 @@
 Package: pablo2013
 Title: Pablo's 2013 christmas gift
-Version: 0.1
+Version: 0.2
 Date: 2013-12-31
 Authors@R: c(person("Leonardo", "Collado-Torres", role = c("aut", "cre"), email
     = "lcollado@jhsph.edu"))
 Description: Pablo's 2013 christmas gift
 Depends:
-    R (>= 3.0.0)
+    R (>= 2.15.2)
 License: GPL-2
 LazyData: true
 URL: https://github.com/lcolladotor/pablo2013
 Suggests:
-    knitr,
-    markdown (>= 0.5.4),
-    shiny,
-    ggplot2
-VignetteBuilder: knitr
-Collate:
+    shiny
