@@ -15,7 +15,7 @@ shinyServer(function(input, output) {
 	## Show the number of correct answers, and the correct answers
 	output$answers <- renderTable({
 		data <- formatData()
-		data
+		data[, 1:2]
 	})
 	output$total <- renderPrint({
 		data <- formatData()
