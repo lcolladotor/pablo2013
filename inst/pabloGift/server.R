@@ -6,9 +6,9 @@ library("shiny")
 shinyServer(function(input, output) {
 	
 	formatData <- reactive({
-		answers <- as.character(c(input$anime1, input$anime2, input$history1, input$code1, input$code2))
+		answers <- c(input$anime1, input$anime2, input$history1, input$code1, input$code2)
 		data <- data.frame("Selected"=answers, "Expected"= c("Kuudere", "Noriko Takaya", "Tokugawa", "3", "5"), stringsAsFactors=FALSE)
-		data$Correct <- sapply(seq_len(nrow(data)), function(x) { data$Selected[x] == data$Expected[x] })
+		data$Correct <- sapply(seq_len(nrow(data)), function(x) { as.character(data$Selected[x]) == as.character(data$Expected[x]) })
 		data
 	})
 	
