@@ -4,7 +4,7 @@ source("server.R")
 ## Specify layout
 shinyUI(pageWithSidebar(
 	
-	headerPanel(HTML("Pablo's 2013 christmas gift"), "pablo2013"),
+	headerPanel(HTML("Pablo's 2013 christmas gift (code at <a href='https://github.com/lcolladotor/pablo2013'>GitHub</a>)"), "pablo2013"),
 	
 	
 	sidebarPanel(
