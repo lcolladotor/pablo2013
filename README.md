@@ -1,7 +1,7 @@
 Pablo's 2013 gift
 =================
 
-This is a christmas gift for Pablo, made on the winter of 2013.
+This is a christmas gift for Pablo, made on the winter of 2013. You can view it (thanks to [RStudio](http://www.rstudio.com/)) live at [http://glimmer.rstudio.com/lcolladotor/pabloGift/](http://glimmer.rstudio.com/lcolladotor/pabloGift/).
 
 ## Installation instructions
 
